@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Env files — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Client build output
+/client/.next/
+/client/out/
+/client/build/
+/client/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
