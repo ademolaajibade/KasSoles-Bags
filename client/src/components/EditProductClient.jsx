@@ -15,7 +15,7 @@ export default function EditProductClient({ productId }) {
   }, [productId]);
 
   if (error) return <p className="text-red-600">{error}</p>;
-  if (!product) return <p>Loading…</p>;
+  if (!product) return <p>Loading...</p>;
 
   return <ProductForm product={product} />;
 }
