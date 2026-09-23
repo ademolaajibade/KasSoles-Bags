@@ -19,7 +19,7 @@ export default function ForgotPasswordPage() {
       });
       setStatus({
         type: "success",
-        message: "If that email is registered, a reset link has been sent.",
+        message: "If that email is registered, a reset link has been sent...",
       });
     } catch (err) {
       setStatus({
